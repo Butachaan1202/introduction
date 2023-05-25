@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+body {
+    font-size: 12px;
+    background-color: rgb(45, 0, 223);
+}
+body {
+    background-color: bisque;
+}
+
+.introduce {
+    color: rgb(24, 10, 211);
+}
+#name {
+	animation: 3s linear infinite rotation;
+}
+
+@keyframes rotation {
+  0% {
+		transform: rotate(0);
+	}
+  100% {
+		transform: rotate(360deg);
+	}
+}
+#from {
+    color:rgb(0, 112, 210);
+}
+.box {
+    border: 50px solid rgb(6, 4, 4);
+}
