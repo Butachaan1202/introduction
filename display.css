@@ -1,0 +1,25 @@
+.block {
+    display: block;
+    background: red;
+    margin: 16px;
+    padding: 16px;
+}
+
+.inline {
+    display: inline;
+    background: blue;
+    margin: 16px;
+    padding: 64px;
+}
+
+.inline-block {
+    display: inline-block;
+    background: green;
+    margin: 16px;
+    padding: 16px;
+}
+
+.fixed-size {
+    width: 200px;
+    height: 200px;
+}
